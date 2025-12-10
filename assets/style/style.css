@@ -128,3 +128,23 @@ body {
   background: var(--blue);
   color: white;
 }
+
+.footer-links {
+  margin-top: 24px;
+  font-size: 13px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 300px;
+}
+
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 10px;
+}
