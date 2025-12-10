@@ -91,3 +91,40 @@ body {
   font-size: 14px;
   text-decoration: none;
 }
+
+.btn-row {
+  display: flex;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.btn-primary,
+.btn-outline {
+  flex: 1;
+  padding: 12px 0;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.btn-primary {
+  border: none;
+  background: var(--blue);
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #084a9e;
+}
+
+.btn-outline {
+  background: white;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+}
+
+.btn-outline:hover {
+  background: var(--blue);
+  color: white;
+}
