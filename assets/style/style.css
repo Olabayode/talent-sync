@@ -148,3 +148,22 @@ body {
   color: var(--muted);
   margin-top: 10px;
 }
+
+@media (max-width: 900px) {
+  .login-wrapper {
+    grid-template-columns: 1fr; 
+  }
+
+  .left-side {
+    display: none; 
+  }
+
+  .right-side {
+    width: 100%;
+  }
+
+  .login-box {
+    width: 90%;
+    max-height: none;
+  }
+}
