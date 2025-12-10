@@ -12,3 +12,18 @@
   font-family: system-ui, Arial, sans-serif;
   font-size: 16px;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  color: var(--text);
+  line-height: 1.4;
+  height: 100vh; /* Ensure full viewport height */
+  font-family: var(--font-family);
+  overflow: hidden; /* prevent scrollbars */
+}
