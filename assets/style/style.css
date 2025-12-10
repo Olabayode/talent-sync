@@ -65,3 +65,29 @@ body {
   justify-content: center;
   margin: 0 auto; 
 }
+
+.login-box h1 {
+  color: var(--blue);
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+
+.login-box input {
+  width: 100%;
+  padding: 14px;
+  background: var(--light-gray);
+  border: 1px solid #dbe1e8;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+
+.forgot {
+  margin-top: 5px;
+  color: var(--blue);
+  font-size: 14px;
+  text-decoration: none;
+}
