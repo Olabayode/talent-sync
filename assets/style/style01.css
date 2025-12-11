@@ -59,3 +59,34 @@ body {
     height: 36px;
     border-radius: 50%;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 22% 50% 28%;
+    width: 90%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.left-sidebar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+    text-align: center;
+}
+
+.user-img {
+    width: 90px;
+    border-radius: 50%;
+}
+
+.left-sidebar h3 {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.role {
+    font-size: 13px;
+    color: gray;
+}
