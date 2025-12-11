@@ -3,6 +3,9 @@
 
 const loginForm = document.getElementById('login-form');
 const peopleGrid = document.getElementById('peopleGrid');
+const profilePic = document.getElementById('profile-pic');
+const modal = document.getElementById('settingsDialog');
+const closeBtn = document.getElementById('closeBtn');
 const URL = 'https://randomuser.me/api/?results=10&inc=picture,name,location&seed=same';
 
 // fetch(URL).then(r=>r.json()).then(console.log);
@@ -71,4 +74,15 @@ async function getUsers(){
 if (peopleGrid) {
     window.addEventListener('load', getUsers);
 }
+
+profilePic.addEventListener('click', ()=> {
+    modal.showModal();
+} )
+
+closeBtn.addEventListener('click', ()=> {
+    modal.close();
+})
+
+
+
 
