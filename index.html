@@ -8,7 +8,7 @@
         <meta name="keywords" content="html, css, web, web development, javascript">
         <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="./assets/style/style.css">
-        <script src="./assets/script/app.js"></script>
+        <script src="./assets/script/app.js" defer></script>
         <title>Talent Sync</title>
 </head>
 <body class="login-page">
@@ -22,16 +22,19 @@
     <div class="right-side">
     <div class="login-box">
       <h1>Welcome</h1>
+      <form id="login-form">
+        <input type="text" placeholder="Email or Phone" id="username" required>
+        <input type="password" placeholder="Password" id="password" minlength="8" maxlength="20" required>
 
-      <input type="text" placeholder="Email or Phone" id="username">
-      <input type="password" placeholder="Password" id="password">
+        <a href="#" class="forgot">Forgot password?</a>
 
-      <a href="#" class="forgot">Forgot password?</a>
+        <div class="btn-row">
+            <button class="btn-primary" type="submit">Login</button>
+            <button class="btn-outline">Sign up</button>
+        </div>
 
-      <div class="btn-row">
-        <button class="btn-primary">Login</button>
-        <button class="btn-outline">Sign up</button>
-      </div>
+        <p id="errorMessage" style="color: red;"></p>
+      </form>
 
       <div class="footer-links">
         <a href="#">Copyright Policy</a>
