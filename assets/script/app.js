@@ -11,9 +11,9 @@ const options = {
     method: 'GET',
 }
 if (loginForm) {
-    const errorMessage = document.getElementById('errorMessage');
     const username = document.getElementById('username');
     const password = document.getElementById('password');
+    const errorMessage = document.getElementById('errorMessage');
     
     localStorage.setItem('username', 'tester');
     localStorage.setItem('password', 'test1234');
@@ -32,11 +32,6 @@ if (loginForm) {
             errorMessage.textContent = 'Incorrect Username or Password';
         }
     });
-}
-
-// People grid code (runs on home.html)
-if (peopleGrid) {
-    window.addEventListener('load', getUsers);
 }
 
 
@@ -71,5 +66,9 @@ async function getUsers(){
         console.error('Error fetching people', error)
         peopleGrid.innerHTML = `<div class= error>Failed to load people, try again later</div>`
     }
+}
+
+if (peopleGrid) {
+    window.addEventListener('load', getUsers);
 }
 

@@ -117,8 +117,10 @@ body {
     padding: 10px;
     border-radius: 20px;
     color: #0073b1;
+    font-weight: 600;
     background: #fff;
     cursor: pointer;
+    transition: all 0.5s ease-in-out;
 }
 
 .feed {
@@ -136,6 +138,7 @@ body {
 .create-post input {
     width: 100%;
     padding: 10px;
+    font-size: 18px;
     border: none;
     outline: none;
 }
@@ -144,7 +147,24 @@ body {
     display: flex;
     gap: 20px;
     margin-top: 10px;
+    margin-left: 12px;
     color: #555;
+    font-size: 16px;
+}
+
+.options span {
+    cursor: pointer;
+    border: 1px solid #0073b1;
+    padding: 5px;
+    border-radius: 20px;
+    color: #0073b1;
+    font-weight: 600;
+    transition: all 0.5s ease-in-out;
+}
+
+.options span:hover, .premium-btn:hover{
+    color: #ffffff;
+    background-color: #0073b1;
 }
 
 .post {
@@ -164,13 +184,13 @@ body {
 }
 
 .post-header p {
-    font-size: 12px;
+    font-size: 15px;
     color: #777;
 }
 
 .post-text {
     margin: 12px 0;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .post-img {
@@ -181,6 +201,7 @@ body {
 
 .post-actions {
     display: flex;
+    align-items: center;
     gap: 20px;
     color: #555;
 }
@@ -190,6 +211,13 @@ body {
     padding: 20px;
     border-radius: 10px;
     height: fit-content;
+}
+
+.right-sidebar h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
 }
 
 .peopleGrid {
@@ -212,13 +240,17 @@ body {
     transition: transform 0.2s;
 }
 
+.person-card:hover {
+    transform: translateY(-5px);
+}
+
 .profilePicture {
     width: 50px;
     height: 50px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 15px;
-    border: 3px solid #007bff;
+    border: 3px solid #0073b1;
 }
 
 .name {
@@ -242,33 +274,3 @@ body {
     color: #dc3545;
     text-align: center;
 }
-
-/* .suggestion {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 12px 0;
-}
-
-.suggestion img {
-    border-radius: 50%;
-}
-
-.suggestion p {
-    font-size: 14px;
-}
-
-.suggestion span {
-    color: gray;
-    font-size: 12px;
-}
-
-.suggestion button {
-    font-size: 18px;
-    border: 1px solid #ccc;
-    border-radius: 50%;
-    width: 28px;
-    height: 28px;
-    background: #fff;
-    cursor: pointer;
-} */
