@@ -90,3 +90,24 @@ body {
     font-size: 13px;
     color: gray;
 }
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.stats p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.premium-btn {
+    border: 1px solid #0073b1;
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    color: #0073b1;
+    background: #fff;
+    cursor: pointer;
+}
