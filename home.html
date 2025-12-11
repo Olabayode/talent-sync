@@ -8,14 +8,14 @@
         <meta name="keywords" content="html, css, web, web development, javascript">
         <link rel="icon" href="./assets/media/favicon.png" type="image/x-icon">
         <link rel="stylesheet" href="./assets/style/style01.css">
-        <script src="./assets/script/app.js"></script>
+        <script src="./assets/script/app.js" defer></script>
         <title>Talent Sync</title>
 </head>
 <body>
     <nav class="top-nav">
         <div class="left">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="logo">
-            <input type="text" placeholder="Search" class="search">
+            <input type="text" placeholder="Search" class="search" id="search">
         </div>
 
         <ul class="menu">
@@ -36,27 +36,27 @@
         <aside class="left-sidebar">
             <img src="https://i.pravatar.cc/140" class="user-img">
 
-            <h3>Lucille Montgomery</h3>
+            <h3>Tracy Boateng</h3>
             <p class="role">UI/UX Designer</p>
 
             <div class="stats">
                 <div>
-                    <p>767</p>
+                    <p>360</p>
                     <span>Connections</span>
                 </div>
                 <div>
-                    <p>60</p>
+                    <p>120</p>
                     <span>Views</span>
                 </div>
             </div>
-
+            <p class="premium-text">Free Access exclusive tools and insights</p>
             <button class="premium-btn">UPGRADE TO PREMIUM</button>
         </aside>
 
         <main class="feed">
 
             <div class="create-post">
-                <input type="text" placeholder="Write here. Add images or a video for visual impact.">
+                <input type="text" placeholder="Write here. Add images or a video for visual impact." id="post-bax">
                 <div class="options">
                     <span>Article</span>
                     <span>Image</span>
@@ -74,7 +74,7 @@
                 </div>
 
                 <p class="post-text">
-                    Hi community, I’m looking for Java Full Stack and Test Automation engineers in the US.
+                    Hi community, I'm looking for Java Full Stack and Test Automation engineers in the US.
                 </p>
 
                 <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d" class="post-img">
@@ -112,30 +112,9 @@
         <aside class="right-sidebar">
             <h3>People you may know</h3>
 
-            <div class="suggestion">
-                <img src="https://i.pravatar.cc/40?img=32">
-                <p>Nina Douglas<br><span>Recruiter</span></p>
-                <button>+</button>
+            <div class="peopleGrid" id="peopleGrid">
+                <div class="loading">Loading People You May Know...</div>
             </div>
-
-            <div class="suggestion">
-                <img src="https://i.pravatar.cc/40?img=19">
-                <p>Harry Caldwell<br><span>Lead Java Dev</span></p>
-                <button>+</button>
-            </div>
-
-            <div class="suggestion">
-                <img src="https://i.pravatar.cc/40?img=56">
-                <p>Hettie Patrick<br><span>UI/UX Designer</span></p>
-                <button>+</button>
-            </div>
-
-            <div class="suggestion">
-                <img src="https://i.pravatar.cc/40?img=44">
-                <p>Fannie Santiago<br><span>SEO Specialist</span></p>
-                <button>+</button>
-            </div>
-
         </aside>
 
     </div>
