@@ -175,3 +175,40 @@ body {
     gap: 20px;
     color: #555;
 }
+
+.right-sidebar {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    height: fit-content;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.suggestion img {
+    border-radius: 50%;
+}
+
+.suggestion p {
+    font-size: 14px;
+}
+
+.suggestion span {
+    color: gray;
+    font-size: 12px;
+}
+
+.suggestion button {
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    background: #fff;
+    cursor: pointer;
+}
