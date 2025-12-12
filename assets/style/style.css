@@ -49,11 +49,16 @@ body {
 
 .right-side {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;     
   height: 100vh;
   background: white;
   padding: 20px 0;
+}
+
+.right-side img{
+    height: 30%;
 }
 
 
