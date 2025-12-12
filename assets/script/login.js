@@ -8,7 +8,7 @@ if (loginForm) {
     const errorMessage = document.getElementById('errorMessage');
     
     localStorage.setItem('username', 'tester');
-    localStorage.setItem('password', 'test1234');
+    localStorage.setItem('password', 'pelumi1234');
     
     loginForm.addEventListener('submit', (e) => {
         e.preventDefault();

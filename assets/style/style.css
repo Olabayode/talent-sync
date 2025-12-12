@@ -57,8 +57,10 @@ body {
   padding: 20px 0;
 }
 
-.right-side img{
-    height: 30%;
+.right-side img {
+    height: 50%;
+    margin-top: -150px;
+    margin-bottom: -50px;
 }
 
 
