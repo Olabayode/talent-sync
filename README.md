@@ -15,6 +15,14 @@
 - ✅ **Seamless Navigation** - One-click return to login from modal
 - ✅ **Performance Optimized** - Separate JS files per page
 
+## 🎮 **Github Repository Link**
+- https://github.com/Olabayode/talent-sync.git
+
+## 🎮 **Github Host Link**
+- https://olabayode.github.io/talent-sync/
+- username : tester
+- password : pelumi1234
+
 ## 🛠️ **Tech Stack**
 
 | Frontend | Styling | Data | Tools |
@@ -31,15 +39,6 @@
 - ├── home.js # API calls + modal functionality
 - ├── styles.css # Modern web styling
 - └── README.md # You're reading it! 📖
-
-
-## 🎮 **Github Repository Link**
-- https://github.com/Olabayode/talent-sync.git
-
-## 🎮 **Github Host Link**
-- 
-- username : tester
-- password : pelumi1234
 
 ## 🎨 **Key Interactions**
 - Login → Home Page (Protected)
