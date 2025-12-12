@@ -68,7 +68,7 @@
 | Name | Role | LinkedIn |
 |------|------|----------|
 | **Emmanuel Olure** | Full-Stack Developer | [LinkedIn](https://www.linkedin.com/in/emmanuel-olabayode-b600272a8) |
-| **Tracy Boateng** | UI/UX Designer | [LinkedIn](https://linkedin.com) |
+| **Tracy Boateng** | Full-Stack Developer | [LinkedIn](https://linkedin.com) |
 
 **Passionate about building tools that connect talent with opportunities.**
 
